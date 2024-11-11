@@ -1,4 +1,4 @@
-# wonder-tales
+# Wondertale
 A story book application for people who like reading.
 
 ###Tech Stack
@@ -9,7 +9,7 @@ Stories & Poem Storage: Firebase Firestore
 User Database: Firebase Realtime Database
 
 ### Demo
-https://github.com/user-attachments/assets/81caaa00-2851-40a6-9eb9-ea81ddb05bef
+
 
 ### Features
 - User Authentication
