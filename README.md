@@ -2,11 +2,11 @@
 A story book application for people who like reading.
 
 ### Tech Stack
-Client: Android,XML,Kotlin
-Server:Firebase
-Authentication:Firebase Auth
-Stories & Poem Storage: Firebase Firestore
-User Database: Firebase Realtime Database
+Client: Android,XML,Kotlin<br />
+Server:Firebase<br />
+Authentication:Firebase Auth<br />
+Stories & Poem Storage: Firebase Firestore<br />
+User Database: Firebase Realtime Database<br />
 
 ### Demo
 
