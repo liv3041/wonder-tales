@@ -29,8 +29,11 @@ https://github.com/user-attachments/assets/3d3109d3-7e91-4668-a9ad-f93671c27a6b
 
 
 ### Screens
+#### Share Screen
 ![share](https://github.com/user-attachments/assets/a75451fc-da4f-41a0-8384-b19257bd756f )
+#### Dark Mode
 ![dark_mode](https://github.com/user-attachments/assets/dd07c21c-e4c0-47a2-a14f-1405a468890d)
+#### Registeration Screen
 ![registeration_screen](https://github.com/user-attachments/assets/973f06cc-a43f-4238-8a4b-01e75e4f91e2)
 
 
