@@ -1,7 +1,7 @@
 # Wondertale
 A story book application for people who like reading.
 
-###Tech Stack
+### Tech Stack
 Client: Android,XML,Kotlin
 Server:Firebase
 Authentication:Firebase Auth
