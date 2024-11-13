@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.toonandtool.wondertales.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_storyItemPBFragment2"
+            app:destination="@id/storyItemPBFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_storyItemCBFragment2"
+            app:destination="@id/storyItemCBFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.toonandtool.wondertales.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_notificationFragment"
+            app:destination="@id/notificationFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_deleteAccountFragmentFragment"
+            app:destination="@id/deleteAccountFragmentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/storyItemCBFragment2"
+        android:name="com.toonandtool.wondertales.home.StoryItemCBFragment"
+        android:label="fragment_story_item_cb"
+        tools:layout="@layout/fragment_story_item_cb" >
+        <action
+            android:id="@+id/action_storyItemCBFragment2_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_storyItemCBFragment2_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storyItemPBFragment2"
+        android:name="com.toonandtool.wondertales.home.StoryItemPBFragment"
+        android:label="fragment_story_item_pb"
+        tools:layout="@layout/fragment_story_item_pb" >
+        <action
+            android:id="@+id/action_storyItemPBFragment2_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_storyItemPBFragment2_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.toonandtool.wondertales.profile.LibraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library" >
+        <action
+            android:id="@+id/action_libraryFragment_to_libraryItemHolderFragment"
+            app:destination="@id/libraryItemHolderFragment" />
+        <action
+            android:id="@+id/action_libraryFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/libraryItemHolderFragment"
+        android:name="com.toonandtool.wondertales.profile.library.LibraryItemHolderFragment"
+        android:label="fragment_library_item_holder"
+        tools:layout="@layout/fragment_library_item_holder" >
+        <action
+            android:id="@+id/action_libraryItemHolderFragment_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
+        <action
+            android:id="@+id/action_libraryItemHolderFragment_to_customCollectionDialog"
+            app:destination="@id/customCollectionDialog" />
+        <action
+            android:id="@+id/action_libraryItemHolderFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_libraryItemHolderFragment_to_storyItemCBFragment2"
+            app:destination="@id/storyItemCBFragment2" />
+        <action
+            android:id="@+id/action_libraryItemHolderFragment_to_storyItemPBFragment2"
+            app:destination="@id/storyItemPBFragment2" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/poemsFragment"
+        android:name="com.toonandtool.wondertales.PoemsFragment"
+        android:label="fragment_poems"
+        tools:layout="@layout/fragment_poems" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.toonandtool.wondertales.profile.edit.NotificationFragment"
+        android:label="NotificationFragment" >
+        <action
+            android:id="@+id/action_notificationFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/settingsFragment"
+        android:name="com.toonandtool.wondertales.home.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_customCollectionDialog"
+            app:destination="@id/customCollectionDialog" />
+    </dialog>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.toonandtool.wondertales.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_searchViewFragment"
+            app:destination="@id/searchViewFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_genreFragment"
+            app:destination="@id/genreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchViewFragment"
+        android:name="com.toonandtool.wondertales.search.SearchViewFragment"
+        android:label="fragment_search_view"
+        tools:layout="@layout/fragment_search_view" >
+        <action
+            android:id="@+id/action_searchViewFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_searchViewFragment_to_storyItemCBFragment2"
+            app:destination="@id/storyItemCBFragment2" />
+        <action
+            android:id="@+id/action_searchViewFragment_to_storyItemPBFragment2"
+            app:destination="@id/storyItemPBFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/customCollectionDialog"
+        android:name="com.toonandtool.wondertales.dialog.CustomCollectionDialog"
+        android:label="CustomCollectionDialog" >
+        <action
+            android:id="@+id/action_customCollectionDialog_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_customCollectionDialog_to_libraryItemHolderFragment"
+            app:destination="@id/libraryItemHolderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/genreFragment"
+        android:name="com.toonandtool.wondertales.search.GenreFragment"
+        android:label="fragment_genre"
+        tools:layout="@layout/fragment_genre" >
+        <action
+            android:id="@+id/action_genreFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_genreFragment_to_storyItemPBFragment2"
+            app:destination="@id/storyItemPBFragment2" />
+        <action
+            android:id="@+id/action_genreFragment_to_storyItemCBFragment2"
+            app:destination="@id/storyItemCBFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.toonandtool.wondertales.profile.edit.EditProfileFragment"
+        android:label="EditProfileFragment" >
+        <action
+            android:id="@+id/action_editProfileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deleteAccountFragmentFragment"
+        android:name="com.toonandtool.wondertales.DeleteAccountFragmentFragment"
+        android:label="fragment_delete_account_fragment"
+        tools:layout="@layout/fragment_delete_account_fragment" >
+        <action
+            android:id="@+id/action_deleteAccountFragmentFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="com.toonandtool.wondertales.profile.library.BookmarkFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark" >
+        <action
+            android:id="@+id/action_bookmarkFragment_to_storyItemPBFragment2"
+            app:destination="@id/storyItemPBFragment2" />
+        <action
+            android:id="@+id/action_bookmarkFragment_to_storyItemCBFragment2"
+            app:destination="@id/storyItemCBFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.toonandtool.wondertales.profile.library.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_storyItemPBFragment2"
+            app:destination="@id/storyItemPBFragment2" />
+        <action
+            android:id="@+id/action_favoriteFragment_to_storyItemCBFragment2"
+            app:destination="@id/storyItemCBFragment2" />
+    </fragment>
+</navigation>
