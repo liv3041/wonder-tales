@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/3d3109d3-7e91-4668-a9ad-f93671c27a6b
 - Limiting data for continue reading, favorites and bookmarks to reduce the load of Realtime Database.
 
   ### App Store
-  [![Alt text](https://w7.pngwing.com/pngs/410/477/png-transparent-get-it-on-google-play-button-thumbnail.png)](https://play.google.com/store/apps/details?id=com.toonandtool.wondertales)
+  [![Alt text](https://colab.research.google.com/drive/1J2GISw-_9Z1dWCrf7Pphq0V8uRzQoBtI)](https://play.google.com/store/apps/details?id=com.toonandtool.wondertales)
 
 
 
