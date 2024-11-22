@@ -26,6 +26,10 @@ https://github.com/user-attachments/assets/3d3109d3-7e91-4668-a9ad-f93671c27a6b
 - User-controlled deletion of favorites, bookmarks, and reading progress
 - Limiting data for continue reading, favorites and bookmarks to reduce the load of Realtime Database.
 
+  ### App Store
+  [![Alt text](https://w7.pngwing.com/pngs/410/477/png-transparent-get-it-on-google-play-button-thumbnail.png)](https://play.google.com/store/apps/details?id=com.toonandtool.wondertales)
+
+
 
 
 ### Screens
